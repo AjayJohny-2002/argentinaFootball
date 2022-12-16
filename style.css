@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #330b21;
+    scroll-behavior: smooth;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #191627;
+
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav :hover {
+    color: #423580;
+}
+
+
+/* ======================================================== */
+
+.container {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.topnav {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+/* .nav-items {
+    margin-left: 50%;
+
+} */
+
+
+/* --------------------------------- Home Contents ------------------------------------- */
+
+.home-data {
+    display: flex;
+    margin-top: 10%;
+    width: 84%;
+    margin: 10% auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* align-content: space-between;
+        justify-content: center; */
+
+
+.home-data img {
+    height: 50vh;
+    width: 50vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.content h1:nth-child(1) {
+    font-size: 3em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.content h1:nth-child(2) {
+
+    font-size: 3em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.content h3 {
+    font-size: 18;
+    color: #BFBCC6;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0%;
+    font-weight: 500;
+
+}
+
+#des {
+    color: #BFBCC6;
+    font-size: 15;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    width: 25vw;
+}
+
+/* ------------------------------ social media ------------------------------------- */
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+
+
+
+}
+
+.social-media li {
+    list-style-type: none;
+    font-size: 1.25em;
+    margin-top: 150%;
+
+}
+
+.social-media a {
+    color: #6E58E0;
+
+}
+
+.contact-button {
+    height: 4vh;
+    width: 10vw;
+    padding: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    background-color: #6E58E0;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    text-decoration: none;
+}
+
+/* ----------------------------- About Section ------------------------------------ */
+
+.about h1 {
+    font-size: 3em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10%;
+    text-align: center;
+
+
+}
+
+.about p {
+    color: #BFBCC6;
+    padding-top: 2%;
+    font-size: 15;
+    font-weight: 500;
+    width: 50%;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/*-------------------------------- My Skills ---------------------------------- */
+
+.skills {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.my-skills h1 {
+    font-size: 3em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.skill-items1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
+}
+
+.skill-items2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 35%; */
+    width: 53%;
+}
+
+.skill-items3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
+
+}
+
+.skills li {
+    padding: 2% 0%;
+    margin: auto;
+}
+
+/*-------------------------------- slider -------------------------------------- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.Recent-Works{
+    padding: 0% 20%;
+    margin-top: 10%;
+}
+
+
+.swiper-slide {
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    background:#191627;
+    /* background-color: white; */
+    height: 20vw;
+    width: 1vh;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 10%;
+    height: 10%;
+
+}
+
+
+.swiper-button-next{
+    color:#6E58E0;
+}
+.swiper-button-prev{
+    color:#6E58E0;
+}
+
+
+/*-------------------------------- Contact Me ---------------------------------- */
+.contact-details {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+.contact h1 {
+    font-size: 3em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+.contact-icons {
+    list-style: none;
+    font-size: 2.2em;
+    color: #6E58E0;
+    margin-top: 1%;
+
+}
+
+.contact-icons li {
+    padding-top: 20%;
+}
+
+.contact-title {
+    margin-left: 5%;
+}
+
+.contact-title h3:nth-child(1) {
+    color: white;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 20%;
+}
+
+.con-title {
+    color: white;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 20%;
+    margin-bottom: 0%;
+    padding-top: 5%;
+
+}
+
+.contact-subtitle {
+    color: #BFBCC6;
+}

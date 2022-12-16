@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Football</title>
+
+    
+</head>
+
+<body>
+
+    <body>
+        <div class="topnav">
+            <div class="nav-items">
+                <a href="#contme">Contact Us</a>
+    
+                <a href="#abt">About</a>
+                
+                <a href="#cont" class="active">Home </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="home-data">
+                <div ul class="social-media">
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="content" id="cont">
+                    <h1 id="title1">VAMOS</h1>
+                    <h1 id="title2">ARGENTINA</h1>
+                    <h3 id="subtitle">Fifa Affiliated football Team</h3>
+                    <div p id="des">En unión y libertad 
+                        </p>
+                    </div>
+                    <div><a button class="contact-button" href="#contme">Contact Us</button></a></div>
+                </div>
+                <img src="./assets/argentina logo.png" alt="">
+            </div>
+            <div section class="about" id="abt">
+                <h1>About</h1>
+            <div><p>The Argentina national football team represents Argentina in men's international football and is administered by the Argentine Football Association, the governing body for football in Argentina.
+
+                La Selección (National Team), also known as La Albiceleste, has appeared in six World Cup finals, including the first final in 1930, which they lost 4–2 to Uruguay. Argentina won in their next final appearance in 1978, beating the Netherlands 3–1 at extra time. Argentina won again in 1986 with a 3–2 victory over West Germany, and a tournament campaign inspired by their captain Diego Maradona. They made the World Cup finals once more in 1990, and lost 1–0 to West Germany through an 87th minute penalty converted by Andreas Brehme. Argentina made their fifth appearance in a World Cup final in 2014, again losing to Germany 1–0 during extra-time. The team's World Cup-winning managers are César Luis Menotti in 1978 and Carlos Bilardo in 1986. In 2022, they made their sixth appearance in a World Cup final, which is set to be played on 18 December 2022 at the Lusail Iconic Stadium.
+                
+                Argentina has also been very successful in the Copa América, winning it 15 times, most recently led by Lionel Messi in 2021, and is currently tied with Uruguay in most wins. The team also won the 1992 FIFA Confederations Cup. Argentina is the most successful team in the CONMEBOL–UEFA Cup of Champions, having won it twice (1993 and 2022). Argentina is known for having rivalries with Brazil, Uruguay, England, Germany and the Netherlands.[13][14] As of 2022, Argentina holds the record for most official titles won by a men's national team (21).
+
+
+                </p></div>
+
+            </div>
+           
+                
+                <div section class="contact" id="contme">
+                    <h1>Contact Us</h1>
+                    <div class="contact-details">
+                        <div ul class="contact-icons">
+                            <li><i class="uil uil-envelope contact__icon"></i></li>
+                            <li><i class="uil uil-phone contact__icon"></i></li>
+                            </ul>
+                        </div>
+                        <div class="contact-title">
+                            <h3 class="con-title">Twitter</h3>
+                            <span class="contact-subtitle">argentina@Twitter.com</span>
+                            <div class="call-details">
+                                <h3 class="con-title">call us</h3>
+                                <span class="contact-subtitle">1234545545</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    </section>
+
+                </div>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+    </body>
+
+</body>
+
+</html>
